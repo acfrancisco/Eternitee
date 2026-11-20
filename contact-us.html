@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0ea">
+  <meta name="description" content="Contact Eternitee for inquiries, requests, or privacy concerns.">
+  <title>Eternitee — Contact Us</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">  <link rel="stylesheet" href="contact-us-styles.css">
+  <script type="module" src="contact-us-script.js"></script>
+</head>
+
+<body data-page="contact">
+  <header class="site-header">
+    <a class="brand-lockup" href="index.html" aria-label="Eternetee home">
+      <span class="brand-name">Eternitee</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="index.html">
+          <img
+              src="https://lh3.googleusercontent.com/rd-d/ALs6j_Fv9I8sZw82QGDFDB16NXxA5yvv2acipnXrzon2zIhZH8eH6QsHjP030zbLtiLBRs3LcZlezrJNsaXGLjPYTyNAvr09s5oc9IRDYvw5OfZCy2OblAEPizWqLltXTzq08VsihblmttTJM6JzG8C7k_isqf1hMQcVb6Wxn4hpYB9utLkzyynYwVoQMLRhHMLmVW5uJp15fyW3OsVp_8NpQgWP-HuRIw-2CLKI6MO_VzbJ5ueEo-v-41jcvpM3wdqD86IWqvsaDSmgfhNEKdWUgpQBEpV9gtbgozbr-PA3MvbmPHMu8msdW7lFaJiIshmcFvzhnw0oUrSaLWrwfX29Lv3bcxkE8_uUh1YJHhfSVzZ3LAQkHRyO6wzpkrGadz0tLIorT1J7C5gZXS5xw5bsajhYFrT7OddKjle6Jp1nK1NW7CotfQgY2qhEWGi4nz2ya3s_oeFi2EVlvkr7HfxcOYVKf3_oKkWTxpHEIXmsXOBuNjqVl4yxJLGDJrw5UleTEnN8QKnomvS9PryVLmV0NpznPogpiM9lCIHPcE6bS243_qoP7bzI2suU5pGtMLAHALqWHqcphCd59LAkK7aZPaWoxDneFsKDXRcM8s3itIcD7oujOtqg9A_q3d4pYsyvnUUG687Y1AADFGB6zB8823PKSSWBobTxnTFjq3FHlEN6srHVCkTuXD4q74xW347GSg_8NjTqZZvp7eUjDou1M2LywPhyGS8jvKlBIjLS-QNyuPAwZJ5ijclaM-bpaTUKpZis07gsoQMlPBu4Wqqda-GdV15QqSwYsk9GlYGDYOpbIkEV9Bky7YvOtn9Q8KhqXH9xgPlpepN4aduP9GY43_3qXXO9qtmyVkbl1ChtkLyhp0tBHQKduXKZwIMn9kEF9rd71DG27QCtli9YCethosPYDckuFOCAJkZN2LW7uXDMNypsaHt2LxiyJoOhWKlJ262wWYk1hUgZx6lvo0VeXtpwZyFcBGuo29i_X_8aNjD0JA_sAKs8-8a1jG9V67DFw8m_RvFdlLzxWslWpEstenC1d-1kw-dSwi22yzlym49TdevZ9y7r_GiZFHsg3DE9f16H9eQURQPBX-l6RI157WgV6qOKa41oofGqoPoM8oJspVj407Xsfo7UGEMgeOcxIYf3nZQFiYvdvQ=w1865-h900?auditContext=prefetch"
+              alt="Logo"
+          >
+        </a>
+        <button class="menu-toggle" id="navToggle" type="button" aria-controls="shopNav" aria-expanded="false" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="desktop-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+
+        <button class="bag-button" id="openCart" type="button" aria-label="Open shopping bag">
+          Bag <span class="bag-count" id="bagCount" aria-live="polite">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <dialog class="drawer" id="shopNav" aria-labelledby="shopNavLabel">
+      <div class="drawer-header">
+        <h2 class="drawer-title" id="shopNavLabel">Menu</h2>
+        <button class="drawer-close" id="closeNav" type="button" aria-label="Close navigation menu">×</button>
+      </div>
+      <nav class="drawer-body" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </nav>
+    </dialog>
+  </header>
+
+  <main>
+    <section class="page-container product-section">
+      <nav aria-label="Breadcrumb">
+        <ol class="pathing">
+          <li><a class="pathing-link" href="index.html">Home</a></li>
+          <li class="pathing-divider" aria-hidden="true">／</li>
+          <li class="pathing-current" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+
+      <div class="contact-wrapper">
+        <div class="p-4 p-md-5 bg-white border rounded-4 shadow-sm">
+          <h1 class="product-title text-center mb-3" style="font-size: clamp(2rem, 3.5vw, 3rem);">Contact Us</h1>
+          <p class="product-subtitle text-center mx-auto mb-4" style="max-width: 600px;">
+            Any inquiries, requests, objections, or concerns relating to the processing of Personal Information or our apparel may be directed to Eternitee through the form below:
+          </p>
+
+          <form id="contactForm" onsubmit="sendEmail(event)">
+            <div class="mb-3">
+              <label class="form-label" for="name">Your Name <span class="required-mark">*</span></label>
+              <input class="form-control" id="name" type="text" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="email">Your Email <span class="required-mark">*</span></label>
+              <input class="form-control" id="email" type="email" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-4">
+              <label class="form-label" for="message">Message / Concern <span class="required-mark">*</span></label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="add-button w-100 py-3">Send Message</button>
+            </div>
+          </form>
+
+          <hr class="fine-rule my-4">
+          <div class="text-center">
+            <h2 class="h6 text-uppercase tracking-wider mb-2" style="color: var(--burgundy); font-weight: 600;">Direct Contact Details</h2>
+            <p class="mb-1" style="color: var(--ink);"><strong>Eternitee</strong></p>
+            <p class="text-muted mb-0" style="font-size: 0.8rem;">Email Address: <a href="mailto:hello@examplewebsite142.com" style="color: var(--burgundy); text-decoration: underline;">hello@examplewebsite142.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-container footer-content">
+      <div class="footer-identity">
+        <a class="footer-brand" href="index.html" aria-label="Eternetee home">Eternetee</a>
+        <p>© 2026 Eternetee</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="contact-us.html">Contact Us</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
