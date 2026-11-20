@@ -24,34 +24,6 @@ import { Dialog, Drawer } from 'https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alp
       },
       perks: ['100% cotton', 'Sizes XS–XXL'],
       fitDetails: 'Made from 100% cotton. Available in XS, S, M, L, XL, and XXL.'
-      ,
-      'dont-be-late-tee': {
-      id: 'dont-be-late-tee', name: "Don't Be Late Tee", price: 499,
-      description: "Wear a little encouragement. The Don't Be Late Tee carries a simple reminder to always be timely and punctual. Style it with your everyday favorites and take that intention wherever you go.",
-      material: '100% cotton', sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-      colors: {
-        'Baby Blue': { swatch: '#bad4ed', image: 'https://lh3.googleusercontent.com/d/1fxZlRcxTH7PAb9tWm-AFMoLRpt-g6f30', alt: "Don't Be Late Tee in Baby Blue" },
-      },
-      gallery: {
-          detail: { image: 'https://lh3.googleusercontent.com/d/1ZscKglaTzwnYMHmMJ-aCC-nuZVuEKwzT', alt: "Close-up detail of the Don't Be Late Tee", caption: 'The message' },
-        fit: { image: 'https://lh3.googleusercontent.com/d/197ELkWo9MnIikJy_mHNRkkyTbXnTJSor', alt: "Fit and fabric view of the Don't Be Late Tee", caption: '100% cotton' }
-      },
-      perks: ['100% cotton', 'Sizes XS–XXL'],
-      fitDetails: 'Made from 100% cotton. Available in XS, S, M, L, XL, and XXL.'
-      ,
-      'do-good-work-tee': {
-      id: 'do-good-work-tee', name: 'Do Good Work Tee', price: 499,
-      description: 'Wear a little encouragement. The Do Good Work Tee carries a simple reminder to put care into what you do. Style it with your everyday favorites and take that intention wherever you go.',
-      material: '100% cotton', sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-      colors: {
-        'Rose Pink': { swatch: '#fec6d3', image: 'https://lh3.googleusercontent.com/d/1NhVKvwjI8gSpb7YPJI5maC-GDvTcFSxn', alt: 'Do Good Work Tee in Rose Pink' }
-      },
-      gallery: {
-          detail: { image: 'https://lh3.googleusercontent.com/d/1XuNtdt5XltWf0XS03W1CaxNtKpTHChxR', alt: 'Close-up detail of the Do Good Work Tee', caption: 'The message' },
-        fit: { image: 'https://lh3.googleusercontent.com/d/18VEB1ga2vzXi1D1aLKNHVGrpJs1F-d_n', alt: 'Fit and fabric view of the Do Good Work Tee', caption: '100% cotton' }
-      },
-      perks: ['100% cotton', 'Sizes XS–XXL'],
-      fitDetails: 'Made from 100% cotton. Available in XS, S, M, L, XL, and XXL.'
     }
   };
 
